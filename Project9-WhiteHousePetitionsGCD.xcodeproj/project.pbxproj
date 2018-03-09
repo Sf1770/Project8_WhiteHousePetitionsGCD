@@ -12,6 +12,8 @@
 		04F0669C203A7C9D00568F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F0669A203A7C9D00568F6F /* Main.storyboard */; };
 		04F0669E203A7C9D00568F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F0669D203A7C9D00568F6F /* Assets.xcassets */; };
 		04F066A1203A7C9D00568F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F0669F203A7C9D00568F6F /* LaunchScreen.storyboard */; };
+		04F066A9203A886C00568F6F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F066A8203A886C00568F6F /* SwiftyJSON.swift */; };
+		04F066AB203A9CCA00568F6F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F066AA203A9CCA00568F6F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04F0669D203A7C9D00568F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F066A0203A7C9D00568F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F066A2203A7C9D00568F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F066A8203A886C00568F6F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		04F066AA203A9CCA00568F6F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		04F06695203A7C9D00568F6F /* Project9-WhiteHousePetitionsGCD */ = {
 			isa = PBXGroup;
 			children = (
+				04F066A8203A886C00568F6F /* SwiftyJSON.swift */,
 				04F06696203A7C9D00568F6F /* AppDelegate.swift */,
 				04F06698203A7C9D00568F6F /* ViewController.swift */,
 				04F0669A203A7C9D00568F6F /* Main.storyboard */,
 				04F0669D203A7C9D00568F6F /* Assets.xcassets */,
 				04F0669F203A7C9D00568F6F /* LaunchScreen.storyboard */,
 				04F066A2203A7C9D00568F6F /* Info.plist */,
+				04F066AA203A9CCA00568F6F /* DetailViewController.swift */,
 			);
 			path = "Project9-WhiteHousePetitionsGCD";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F066A9203A886C00568F6F /* SwiftyJSON.swift in Sources */,
 				04F06699203A7C9D00568F6F /* ViewController.swift in Sources */,
 				04F06697203A7C9D00568F6F /* AppDelegate.swift in Sources */,
+				04F066AB203A9CCA00568F6F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
